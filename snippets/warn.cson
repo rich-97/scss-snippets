@@ -1,0 +1,4 @@
+'.source.scss':
+  '@warn':
+    'prefix': 'wn'
+    'body': '@warn \'$1\';'

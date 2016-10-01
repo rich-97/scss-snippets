@@ -1,0 +1,4 @@
+'.source.scss':
+  '@for':
+    'prefix': 'fr'
+    'body': '@for \$${1:var} from ${2:1} through \$${3:length} {\n\t${0:/* code */}\n}'

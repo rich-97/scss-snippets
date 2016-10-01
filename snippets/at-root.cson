@@ -1,0 +1,4 @@
+'.source.scss':
+  '@at-root':
+    'prefix': 'ar'
+    'body': '@at-root {\n\t${1:/* code */}\n}'

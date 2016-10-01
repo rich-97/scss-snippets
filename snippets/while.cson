@@ -1,0 +1,4 @@
+'.source.scss':
+  '@while':
+    'prefix': 'wh'
+    'body': '@while ${1:/* condition */} {\n\t${0:/* code */}\n}'

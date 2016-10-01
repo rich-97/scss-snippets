@@ -1,0 +1,4 @@
+'.source.scss':
+  '@debug':
+    'prefix': 'db'
+    'body': '@debug $1;'

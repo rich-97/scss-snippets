@@ -1,0 +1,4 @@
+'.source.scss':
+  '@each':
+    'prefix': 'eh'
+    'body': '@each \$${1:var} in \$${2:list} {\n\t${0:/* code */}\n}'
