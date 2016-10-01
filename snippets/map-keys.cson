@@ -1,0 +1,4 @@
+'.source.scss':
+  'map-keys':
+    'prefix': 'mk'
+    'body': 'map-keys(\$${1:list})'

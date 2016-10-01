@@ -1,0 +1,4 @@
+'.source.scss':
+  'map-merge':
+    'prefix': 'mm'
+    'body': 'map-merge(\$${1:list1, \$${2:list2}})'
