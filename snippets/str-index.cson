@@ -1,0 +1,4 @@
+'.source.scss':
+  'str-index':
+    'prefix': 'sx'
+    'body': 'str-index(\$${1:string}, \$${2:substring})'

@@ -1,0 +1,4 @@
+'.source.scss':
+  'str-insert':
+    'prefix': 'si'
+    'body': 'str-insert(\$${1:string}, \$${2:substring}, ${3:index})'

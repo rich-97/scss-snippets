@@ -1,0 +1,4 @@
+'.source.scss':
+  'str-slice':
+    'prefix': 'ss'
+    'body': 'str-slice(\$${1:string}, ${2:start}, ${3:end})'

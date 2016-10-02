@@ -1,0 +1,4 @@
+'.source.scss':
+  'to-lower-case':
+    'prefix': 'tl'
+    'body': 'to-lower-case(\$${1:string})'

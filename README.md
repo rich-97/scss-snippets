@@ -15,70 +15,102 @@ apm install scss-snippets
 #### control flow
 
 - [wh] @while
-```sass
+```scss
 @while ${1:condition} {
   ${2:code}
 }
 ```
 - [fr] @for
-```sass
+```scss
 @for ${1:var} from ${2:start} through ${3:end} {
   ${4:code}
 }
 ```
 - [ar] @at-root
-```sass
+```scss
 @at-root {
   ${1:code}
 }
 ```
 - [db] @debug
-```sass
+```scss
 @debug ${1:code};
 ```
 - [eh] @each
-```sass
+```scss
 @each ${1:var} in ${2:list} {
   ${3:code}
 }
 ```
 - [wn] @warn
-```sass
+```scss
 @warn ${1:code};
 ```
 - [er] @error
-```sass
+```scss
 @error ${1:code};
 ```
 
 #### maps functions
 
 - [mg] map-get
-```sass
+```scss
 $get: map-get(${1:list}, ${2:value});
 ```
 
 - [mr] map-remove
-```sass
+```scss
 $remove: map-remove(${1:list}, ${2:value});
 ```
 
 - [mk] map-keys
-```sass
+```scss
 $keys: map-keys(${1:list}});
 ```
 
 - [mv] map-values
-```sass
+```scss
 $values: map-values(${1:values});
 ```
 
 - [mm] map-merge
-```sass
+```scss
 $merge: map-merge(${1:list1}, ${2:list2});
 ```
 
 - [mhk] map-has-key
-```sass
+```scss
 $has-key: map-has-key(${1:list}, ${2:value});
+```
+### strings funtcions
+
+- [si] str-insert
+
+```scss
+$insert: str-insert(${1:string}, ${2:substring}, ${3:index});
+```
+
+- [sx] str-index
+```scss
+$index: str-index(${1:string}, ${2:substring});
+```
+
+- [sl] str-length
+```scss
+$length: str-length(${1:string});
+```
+
+- [ss] str-slice
+```scss
+$slice: str-slice(${1:srting}, ${2:start}, ${3:end});
+```
+
+- [tu] to-upper-case
+```scss
+$upper: to-upper-case(${1:string});
+```
+
+- [tl] to-lower-case
+```scss
+$lower: to-lower-case(${1:string});
 ```
