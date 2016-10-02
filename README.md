@@ -82,7 +82,7 @@ $merge: map-merge(${1:list1}, ${2:list2});
 ```scss
 $has-key: map-has-key(${1:list}, ${2:value});
 ```
-### strings funtcions
+### strings functions
 
 - [si] str-insert
 
