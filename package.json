@@ -1,7 +1,7 @@
 {
   "name": "scss-snippets",
   "main": "./scss-snippets/README.md",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Snippets for atom language sass syntax scss",
   "keywords": [
     "sass",
