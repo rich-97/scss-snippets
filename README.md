@@ -114,3 +114,25 @@ $upper: to-upper-case(${1:string});
 ```scss
 $lower: to-lower-case(${1:string});
 ```
+
+### list functions
+
+- [nth] nth
+```scss
+$nth: nth(${1:list}, ${2:index});
+```
+
+- [in] index
+```scss
+$index: index(${1:list}, ${2:value});
+```
+
+- [jo] join
+```scss
+$join: join(${1:list1}, ${2:list2});
+```
+
+- [ap] append
+```scss
+$append: append(${1:list}, ${2:value});
+```

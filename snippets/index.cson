@@ -1,0 +1,4 @@
+'.source.scss':
+  'index':
+    'prefix': 'in'
+    'body': 'index(\$${1:list}, ${2:value})'

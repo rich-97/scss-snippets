@@ -1,0 +1,4 @@
+'.source.scss':
+  'join':
+    'prefix': 'jo'
+    'body': 'join(\$${1:list1}, \$${2:list2})'

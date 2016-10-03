@@ -1,0 +1,4 @@
+'.source.scss':
+  'append':
+    'prefix': 'ap'
+    'body': 'append(\$${1:list}, \$${2:value})'
