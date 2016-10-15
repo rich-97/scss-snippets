@@ -136,3 +136,25 @@ $join: join(${1:list1}, ${2:list2});
 ```scss
 $append: append(${1:list}, ${2:value});
 ```
+
+### color functions
+
+- [dk] darken
+```scss
+$darken: darken(${1:color}, ${2:amount});
+```
+
+- [lt] lighten
+```scss
+$lighten: lighten(${1:color}, ${2:amount});
+```
+
+- [st] saturate
+```scss
+$saturate: saturate(${1:color}, ${2:amount});
+```
+
+- [dt] desaturate
+```scss
+$desaturate: desaturate(${1:color}, ${2:amount});
+```

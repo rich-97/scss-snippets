@@ -1,0 +1,4 @@
+'.source.scss':
+  'darken':
+    'prefix': 'dk'
+    'body': 'darken(\$${1:color}, ${2:amount})'

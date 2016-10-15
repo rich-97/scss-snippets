@@ -1,0 +1,4 @@
+'.source.scss':
+  'saturate':
+    'prefix': 'st'
+    'body': 'saturate(\$${1:color}, ${2:amount})'

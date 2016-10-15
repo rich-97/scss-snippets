@@ -1,0 +1,4 @@
+'.source.scss':
+  'lighten':
+    'prefix': 'lt'
+    'body': 'lighten(\$${1:color}, ${2:amount})'

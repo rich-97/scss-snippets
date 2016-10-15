@@ -1,0 +1,4 @@
+'.source.scss':
+  'desaturate':
+    'prefix': 'dt'
+    'body': 'desaturate(\$${1:color}, ${2:amount})'
