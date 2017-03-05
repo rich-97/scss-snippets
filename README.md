@@ -1,5 +1,8 @@
 # Scss Snippets for Atom
 
+[![apm](https://img.shields.io/apm/dm/scss-snippets.svg)](https://atom.io/packages/scss-snippets)
+[![apm](https://img.shields.io/apm/v/scss-snippets.svg)](https://atom.io/packages/scss-snippets)
+
 ## install
 
 You can install the settings by pressing `ctrl+,` opened atom, then you go to `install` and looking on packages `scss-snippets`.
